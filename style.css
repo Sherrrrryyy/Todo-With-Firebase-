@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.parent{
+  width: 100%;
+display: flex;
+justify-content: center;
+padding: 50px;
+background-color: #fac599;
+}
+.parent input{
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid whitesmoke;
+}
+input:focus{
+  border: none;
+  outline: none;
+}
+.parent button{
+  width: 120px;
+  border: none;
+  background-color: rgb(253, 242, 222);
+  font-size: 12px;  
+  font-weight: bold;
+
+}
+.parent button:hover{
+  background-color: rgb(5, 5, 4);
+  color: white;
+  font-weight: bold;
+}
+.cardParent{
+  background-color: rgb(253, 242, 222);
+width: 100%;
+display: flex;
+padding: 10px;
+}
+.card{
+margin-left: 40px;
+}
+.card-body{
+  width: 650px;
+  padding: 30px;
+  margin-left: 50px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.card-body h5{
+  width: 700px;
+  background-color: #fac599;
+  padding: 8px;
+  border-radius: 8px;
+}
+.card-body button{
+  width: 250px;
+  border: none;
+  background-color: #fac599;
+  font-size: 12px;  
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.card-body button:hover{
+  background-color: #fff 
+}
